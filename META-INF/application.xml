@@ -4,4 +4,13 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_8.xsd"
              version="8">
 
+    <module id="proyecto-Web">
+        <web>
+            <web-uri>web.war</web-uri>
+            <context-root>proyectoWeb</context-root>
+        </web>
+    </module>
+    <module id="proyecto-EJB">
+        <ejb>ejb.jar</ejb>
+    </module>
 </application>

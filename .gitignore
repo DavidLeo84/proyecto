@@ -11,10 +11,12 @@ build/
 .idea/libraries/
 *.iws
 *.iml
+/.idea
 *.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+
 
 ### Eclipse ###
 .apt_generated
@@ -40,3 +42,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+#Archivos compilados
+*.class
+
+#Archivos temporales Maven
+/**/target/
+
+#Ignora archivos del sistema Mac
+.DS_store
