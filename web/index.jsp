@@ -8,9 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Mi prueba</title>
   </head>
   <body>
-  $END$
+  <div>
+    <h1>Web Test</h1>
+    <form action="/calculate" method="post">
+      <p>
+        input number A <input type="number" name="a" required />
+      </p>
+
+    </form>
+  </div>
   </body>
 </html>
